@@ -15,7 +15,7 @@ import java.util.*;
 public class Principal {
     private  ConsumeApi consumeApi = new ConsumeApi();
     private  String URL_BASE = "http://ws.audioscrobbler.com/2.0/";
-    private String API_KEY = "&api_key=YOUR_API_KEY";
+    private String API_KEY = "&api_key=fd522a59d01f85676a0d7242180b24f1";
     private String GET_ARTIST_METHOD = "?method=artist.getinfo&artist=";
     private String GET_TRACK_METHOD = "?method=track.getInfo&artist=";
     private ConvierteDatos convierteDatos = new ConvierteDatos();
@@ -183,15 +183,20 @@ public class Principal {
     }
 
     private Artista buscaCancionesArtista() {
-        var responseCanciones = buscaCancionesArtista();
-        if(responseCanciones!= null){
-            System.out.println("\nCanciones de "+responseCanciones.getNombre());
-            responseCanciones.getCanciones().forEach(System.out::println);
-            return responseCanciones;
-        }else{
-            System.out.println("Artista no encontrado en la base de datos");
-            return responseCanciones;
+        try {
+            var responseCanciones = buscaArtistaBD();
+            if (!responseCanciones.getCanciones().isEmpty()) {
+                System.out.println("\nCanciones de " + responseCanciones.getNombre());
+                responseCanciones.getCanciones().forEach(System.out::println);
+                return responseCanciones;
+            } else {
+                System.out.println("El artista no tiene canciones registradas");
+                return responseCanciones;
+            }
+        }catch (Exception e){
+            System.out.println("Ocurrió un error");
         }
+        return null;
     }
 
     private void buscaTopCanciones() {
