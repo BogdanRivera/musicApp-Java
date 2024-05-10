@@ -86,7 +86,7 @@ public class Cancion {
 
     @Override
     public String toString() {
-        return "Cancion: \n"+
+        return "\nCancion: \n"+
                 "nombreCancion='" + nombreCancion + '\'' +
                 ", urlCancion='" + urlCancion + '\'' +
                 ", artista='" + artista + '\'' +

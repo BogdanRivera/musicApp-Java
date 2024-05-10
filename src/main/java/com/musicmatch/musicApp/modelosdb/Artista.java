@@ -42,7 +42,7 @@ public class Artista {
 
     @Override
     public String toString() {
-        return "Artista:\n" +
+        return "\n*************Artista*************:\n" +
                 "nombre='" + nombreArtista + '\'' +
                 ", idArtistaWeb='" + idArtistaWeb + '\'' +
                 ", urlArtista='" + urlArtista + '\'' +
