@@ -21,6 +21,10 @@ Este proyecto de Java ofrece una solución para buscar artistas y canciones util
 - PostgreSQL
 - Maven
 
+## Capturas de pantalla: 
+![inicio](https://github.com/BogdanRivera/musicApp-Java/assets/121648408/34f4ef54-2d5d-4a27-8a17-9b9c680523c0)
+![base](https://github.com/BogdanRivera/musicApp-Java/assets/121648408/3bb82f2d-5d22-4c6e-97e7-a8dfb639ab34)
+
 ## Instrucciones de Uso:
 
 1. Clona el repositorio desde GitHub.
