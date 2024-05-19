@@ -1,4 +1,14 @@
-# Proyecto de Búsqueda de Música
+<h1 align="center"> Music App Java </h1>
+
+![Minimalist Simple Grunge Graffiti Cat Brand Logo](https://github.com/BogdanRivera/musicApp-Java/assets/121648408/cbeb9021-f444-4795-8c5a-22668f10a44a)
+
+<p align="center">
+  <img src="https://github.com/BogdanRivera/musicApp-Java/assets/121648408/cbeb9021-f444-4795-8c5a-22668f10a44a" alt="Logo proyecto">
+</p>
+
+   <p align="left">
+   <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
+   </p>
 
 Este proyecto de Java ofrece una solución para buscar artistas y canciones utilizando la API pública de Last.fm y gestionar la información mediante una base de datos PostgreSQL. La aplicación permite a los usuarios realizar diversas operaciones, como búsqueda de artistas en la web, búsqueda de canciones por artista, consulta de artistas y canciones almacenados en la base de datos, entre otras funcionalidades.
 
