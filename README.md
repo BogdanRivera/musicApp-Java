@@ -1,7 +1,8 @@
 <h1 align="center"> Music App Java </h1>
 
+
 <p align="center">
-  <img src="https://github.com/BogdanRivera/musicApp-Java/assets/121648408/cbeb9021-f444-4795-8c5a-22668f10a44a" alt="Logo proyecto">
+  <img src="https://github.com/BogdanRivera/musicApp-Java/assets/121648408/dbb7d8e3-324b-4285-aefd-77cf702f2580" alt="Logo proyecto">
 </p>
 
    <p align="center">
