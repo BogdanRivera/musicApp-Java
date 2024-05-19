@@ -1,12 +1,10 @@
 <h1 align="center"> Music App Java </h1>
 
-![Minimalist Simple Grunge Graffiti Cat Brand Logo](https://github.com/BogdanRivera/musicApp-Java/assets/121648408/cbeb9021-f444-4795-8c5a-22668f10a44a)
-
 <p align="center">
   <img src="https://github.com/BogdanRivera/musicApp-Java/assets/121648408/cbeb9021-f444-4795-8c5a-22668f10a44a" alt="Logo proyecto">
 </p>
 
-   <p align="left">
+   <p align="center">
    <img src="https://img.shields.io/badge/STATUS-FINALIZADO-green">
    </p>
 
